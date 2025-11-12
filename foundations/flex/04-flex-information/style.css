@@ -7,11 +7,33 @@ img {
   height: 100px;
 }
 
+.header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  padding: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
+.flowers {
+  display: flex;
+  padding: 32px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: auto;
+  gap: 52px;
+}
+
+.text {
+  display: flex;
+  max-width: 200px;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
